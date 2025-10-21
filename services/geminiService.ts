@@ -1,13 +1,8 @@
-
 import { GoogleGenAI, Modality } from "@google/genai";
 
-const API_KEY = process.env.API_KEY;
-
-if (!API_KEY) {
-    console.warn("API_KEY not found. Please set the environment variable.");
-}
-
-const ai = new GoogleGenAI({ apiKey: API_KEY });
+// A chave da API é obtida diretamente da variável de ambiente, conforme as diretrizes.
+// O ambiente garante que process.env.API_KEY esteja disponível.
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 export const generateNickname = async (): Promise<string> => {
     try {
