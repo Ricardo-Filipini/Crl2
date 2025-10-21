@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Babel Standalone para transpilar JSX/TSX no navegador -->
+    <script src="https://unpkg.com/@babel/standalone@7.24.7/babel.min.js"></script>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -33,6 +35,7 @@
 </head>
 <body>
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <!-- Alterado para type="text/babel" e data-type="module" para que o Babel processe -->
+    <script type="text/babel" data-type="module" src="/index.tsx"></script>
 </body>
 </html>

@@ -17,25 +17,32 @@ const App: React.FC = () => {
             <div className="relative z-10">
                 <Header />
                 <main className="container mx-auto p-4 md:p-8">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
-                        <div className="lg:col-span-2 xl:col-span-1">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        
+                        <div className="md:col-span-1 lg:col-span-1">
                            <NicknameGenerator />
                         </div>
-                        <div className="lg:col-span-2">
+
+                        <div className="md:col-span-1 lg:col-span-2">
                            <MemeGenerator />
                         </div>
-                        <div className="xl:col-span-3">
+
+                        <div className="md:col-span-2 lg:col-span-3">
                            <SwimmingGame />
                         </div>
-                        <div className="lg:col-span-2 xl:col-span-2">
+
+                        <div className="md:col-span-2 lg:col-span-2">
                            <Quiz />
                         </div>
-                        <div className="xl:col-span-1">
+
+                        <div className="md:col-span-2 lg:col-span-1">
                            <Guestbook />
                         </div>
-                        <div className="xl:col-span-3">
+
+                        <div className="md:col-span-2 lg:col-span-3">
                             <Gallery />
                         </div>
+
                     </div>
                 </main>
                 <Footer />

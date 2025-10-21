@@ -34,21 +34,21 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
 ];
 
 export const GALLERY_IMAGES: string[] = [
-    'Imagens/crl-proibido.png',
-    'Imagens/crl-praia.png',
-    'Imagens/crl-linguiça.png',
-    'Imagens/crl-natacao-bom-dia.png',
-    'Imagens/crl-formatura.png',
-    'Imagens/crl-supino.png',
-    'Imagens/crl-dancinha.gif',
-    'Imagens/crl-oculos.png',
-    'Imagens/crl-bebe.png'
+    '/Imagens/crl-proibido.png',
+    '/Imagens/crl-praia.png',
+    '/Imagens/crl-linguiça.png',
+    '/Imagens/crl-natacao-bom-dia.png',
+    '/Imagens/crl-formatura.png',
+    '/Imagens/crl-supino.png',
+    '/Imagens/crl-dancinha.gif',
+    '/Imagens/crl-oculos.png',
+    '/Imagens/crl-bebe.png'
 ];
 
 export const MEME_BASE_IMAGES: string[] = [
-    'Imagens/crl-rosto-serio.png',
-    'Imagens/crl-sorrindo.png',
-    'Imagens/crl-dancando.png',
+    '/Imagens/crl-rosto-serio.png',
+    '/Imagens/crl-sorrindo.png',
+    '/Imagens/crl-dancando.png',
 ];
 
 export const MEME_PROMPTS: string[] = [
@@ -61,7 +61,7 @@ export const MEME_PROMPTS: string[] = [
 ];
 
 export const FLOATING_IMAGES: string[] = [
-    'Imagens/crl-rosto-game.png',
-    'Imagens/crl-linguiça-icon.png',
-    'Imagens/crl-joinha.png'
+    '/Imagens/crl-rosto-game.png',
+    '/Imagens/crl-linguiça-icon.png',
+    '/Imagens/crl-joinha.png'
 ];
